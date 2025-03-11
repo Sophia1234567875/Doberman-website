@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doberman Fun Site</title>
+    <style>
+        body {
+            background-color: #D1C2FF; /* Periwinkle */
+            color: #FF9E80; /* Peach Orange */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: white;
+            padding: 10px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #FF9E80;
+            font-size: 18px;
+        }
+        .doberman-img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="care.html">Care</a>
+    </nav>
+    <h1>Welcome to the Doberman Fun Site!</h1>
+    <p>Learn all about these amazing dogs.</p>
+    <img class="doberman-img" src="brown-doberman.jpg" alt="Brown Doberman Puppy">
+    <img class="doberman-img" src="blue-doberman.jpg" alt="Blue Doberman Puppy">
+    <img class="doberman-img" src="black-doberman.jpg" alt="Black Doberman Puppy">
+</body>
+</html>
